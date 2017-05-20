@@ -1,0 +1,34 @@
+{
+  "name": "<%= project_name %>",
+  "description": "<%= description %>",
+  "main": [
+    "dist/scripts/index.js",
+    "dist/styles/index.css"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/<%= project_name %>",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "gulp",
+    "gulpfile.js"
+  ],
+  "dependencies": {
+    "web-sass-reset": "afeiship/web-sass-reset",
+    "jquery": "1.12.4",
+    "next-js-core": "afeiship/next-js-core"
+  }
+}
